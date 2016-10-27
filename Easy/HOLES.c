@@ -9,9 +9,10 @@ int main(int argc, char const *argv[])
 	{
 		hole=0;
 		char str[100];
+		int j=0;
 		scanf("%s",str);
 		int len=strlen(str);
-		for (int i = 0; i < len; i++)
+		for (int i = 0 ; i < len; i++)
 		{
 			if(str[i]=='a'||str[i]=='d'||str[i]=='o'||str[i]=='p'||str[i]=='r'||str[i]=='A'||str[i]=='Q'||str[i]=='D'||str[i]=='O'||str[i]=='P'||str[i]=='R'||str[i]=='q'){
 				hole++;
